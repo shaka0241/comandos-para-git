@@ -1,0 +1,44 @@
+Pasos para subir cambios a un proyecto donde trabajan varias personas
+
+ 
+
+git add de solo los archivos que quiero subir
+
+ 
+
+git commit -m 'mensaje' para hacer un commit
+
+ 
+
+git fetch actualiza
+
+ 
+
+git reset --soft HEAD^ devuelve el commit
+
+ 
+
+git stash save 'mensaje' para guardar los cambios del commit
+
+en la pila
+
+ 
+
+git stash list para ver si guardó en la pila
+
+ 
+
+git pull
+
+ 
+
+git stash apply stash@{0} 
+
+ 
+
+git commit -m 'mensaje'
+
+ 
+
+git push
+
