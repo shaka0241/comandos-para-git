@@ -1,0 +1,6 @@
+* activar el servicio como root de MongoDB
+
+  systemctl start mongodb.service
+
+* Abrir MongoDB
+  mongo
