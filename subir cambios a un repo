@@ -24,14 +24,14 @@ en la pila
 
  
 
-git stash list para ver si guardó en la pila
+git stash list     es para ver si guardó en la pila y ver la posicion
 
  
 
 git pull
 
  
-
+Debemos cambiar stash@{0} y poner el numero en que se guardo en la pila en este caso fue 0
 git stash apply stash@{0} 
 
  
