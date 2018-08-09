@@ -34,6 +34,9 @@ git pull
 Debemos cambiar stash@{0} y poner el numero en que se guardo en la pila en este caso fue 0
 git stash apply stash@{0} 
 
+
+agregamos nuevamente los archivos que vamos a subir
+git add
  
 
 git commit -m 'mensaje'
