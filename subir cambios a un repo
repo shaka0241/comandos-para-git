@@ -1,12 +1,19 @@
-Pasos para subir cambios a un proyecto donde trabajan varias personas
+##Pasos para subir cambios a un proyecto donde trabajan varias personas
 
  
+1. Tipeamos el siguiente comando para saber cuales son los archivos modificados
+   
+   git status
+   
+   
+2. Adjuntamos los archivos que queremos subir seguidamente del siguiente comando
 
-git add de solo los archivos que quiero subir
+   git add 
 
  
+3. Hacemos un commit y escribimos un mensaje
 
-git commit -m 'mensaje' para hacer un commit
+   git commit -m 'mensaje' 
 
  
 
