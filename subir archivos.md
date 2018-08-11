@@ -1,4 +1,4 @@
-##Pasos para subir cambios a un proyecto donde trabajan varias personas
+## Pasos para subir cambios a un proyecto donde trabajan varias personas
 
  
 1. Tipeamos el siguiente comando para saber cuales son los archivos modificados
