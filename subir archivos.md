@@ -1,1 +1,54 @@
-##
+##Pasos para subir cambios a un proyecto donde trabajan varias personas
+
+ 
+1. Tipeamos el siguiente comando para saber cuales son los archivos modificados
+   
+   git status
+   
+   
+2. Adjuntamos los archivos que queremos subir seguidamente del siguiente comando
+
+   git add 
+
+ 
+3. Hacemos un commit y escribimos un mensaje
+
+   git commit -m 'mensaje' 
+
+ 
+
+git fetch actualiza
+
+ 
+
+git reset --soft HEAD^ devuelve el commit
+
+ 
+
+git stash save 'mensaje' para guardar los cambios del commit
+
+en la pila
+
+ 
+
+git stash list     es para ver si guardó en la pila y ver la posicion
+
+ 
+
+git pull
+
+ 
+Debemos cambiar stash@{0} y poner el numero en que se guardo en la pila en este caso fue 0
+git stash apply stash@{0} 
+
+
+agregamos nuevamente los archivos que vamos a subir
+git add
+ 
+
+git commit -m 'mensaje'
+
+ 
+
+git push
+
