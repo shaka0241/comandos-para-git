@@ -16,39 +16,46 @@
    git commit -m 'mensaje' 
 
  
+4. Actualizamos, es posible que halla un cambio pendiente que no lo tengamos localmente
 
-git fetch actualiza
+   git fetch 
 
- 
 
-git reset --soft HEAD^ devuelve el commit
+5. Devolvemos el commit
 
- 
-
-git stash save 'mensaje' para guardar los cambios del commit
-
-en la pila
+   git reset --soft HEAD^ 
 
  
+6- Guardamos los cambios del commit en la pila
 
-git stash list     es para ver si guardó en la pila y ver la posicion
-
+   git stash save 'mensaje' 
  
 
-git pull
+7. Verificamos si se ha guardado y en que posicion, debe estar en la posicion 0
+   
+   git stash list   
 
  
-Debemos cambiar stash@{0} y poner el numero en que se guardo en la pila en este caso fue 0
-git stash apply stash@{0} 
-
-
-agregamos nuevamente los archivos que vamos a subir
-git add
- 
-
-git commit -m 'mensaje'
+8. bajamos los cambios y actualizamos el repositorio
+   git pull
 
  
+9. Aplicamos los cambios guardados en la pila
 
-git push
+   git stash apply stash@{0} 
+
+
+10. Agregamos nuevamente los archivos que vamos a subir
+
+   git add
+ 
+
+11. Hacemos un commit
+
+   git commit -m 'mensaje'
+
+ 
+12. tipeamos un push para subir
+   
+   git push
 
