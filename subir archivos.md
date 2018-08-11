@@ -1,3 +1,9 @@
+## Usando Checkout
+
+Si deseas sacar archivos adjuntados en git para subir usamos git
+
+   git checkout  nombre_del_archivo
+
 ## Pasos para subir cambios a un proyecto donde trabajan varias personas
 
  
@@ -24,7 +30,7 @@
 5. Devolvemos el commit
 
    git reset --soft HEAD^ 
-
+   
  
 6- Guardamos los cambios del commit en la pila
 
@@ -37,6 +43,7 @@
 
  
 8. bajamos los cambios y actualizamos el repositorio
+   
    git pull
 
  
@@ -55,7 +62,7 @@
    git commit -m 'mensaje'
 
  
-12. tipeamos un push para subir
+ 12. tipeamos un push para subir
    
    git push
 
