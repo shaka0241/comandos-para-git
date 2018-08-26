@@ -34,6 +34,7 @@ Si estas manejando un proyecto muy pequeño y quieres actualizar el repositorio 
 
    git push origin master
 
+<br>
 
 
 ## Usando Checkout
@@ -42,7 +43,7 @@ Si deseas descartar archivos adjuntados en git para subir usamos git
 
    git checkout  nombre_del_archivo
    
-   
+<br>   
    
 ## Usando ADD
 Con este comando podremos adjuntar archivos, conozco 3 formas de hacerlo
@@ -59,7 +60,8 @@ Con este comando podremos adjuntar archivos, conozco 3 formas de hacerlo
    
    git add /home/usuario/prueba.py
 
-
+<br>
+<br>
 ## Pasos para subir cambios a un proyecto donde trabajan varias personas
 
  
