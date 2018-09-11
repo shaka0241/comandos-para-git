@@ -64,6 +64,7 @@ Con este comando podremos adjuntar archivos, conozco 3 formas de hacerlo
 
 <br>
 <br>
+
 ## Pasos para subir cambios a un proyecto donde trabajan varias personas
 
  
