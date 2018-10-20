@@ -47,6 +47,8 @@ Si deseas descartar archivos adjuntados en git para subir usamos git
    
 <br>   
    
+
+
 ## Usando ADD
 Con este comando podremos adjuntar archivos, conozco 3 formas de hacerlo
 
@@ -61,6 +63,13 @@ Con este comando podremos adjuntar archivos, conozco 3 formas de hacerlo
 3. Adjuntar archivos especificos, para eso hacemos git status y vemos la ruta de cada archivo, por ejemplo si git  status      nos dice que el archivo /home/usuario/prueba.py /home/usuario/user.png  eso significa que son dos archivos que fueron        agregados, si solo queremos subir el archivo prueba.py, hacemos lo siguiiente
    
    git add /home/usuario/prueba.py
+
+<br>
+<br>
+
+## Verificar errores en proyecto angular, antes de subir.
+
+ng serve --aot
 
 <br>
 <br>
