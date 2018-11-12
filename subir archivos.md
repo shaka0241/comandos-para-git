@@ -1,7 +1,5 @@
 Creando ramas  https://www.genbeta.com/desarrollo/manejo-de-ramas-de-desarrollo-con-git
 
-# Tutorial Git
-
 ## Actualizar y subir a la Rama master
 
 Si estas manejando un proyecto muy pequeño y quieres actualizar el repositorio y subir, puedes seguir los siguientes pasos, no es recomendado, lo ideal es crear una rama y luego fusionar las ramas.
