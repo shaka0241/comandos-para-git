@@ -25,3 +25,7 @@ git checkout -b nombre_de_la rama
 ### Subimos
 
 git push --set-upstream origin nombre_de_la rama
+
+
+### La proxima vez que subimos
+no tenemos que hacer todos estos pasos, hacemos un add, un comit y luego un push
